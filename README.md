@@ -3,6 +3,9 @@ home: true
 tagline: Engineer, Music nerd, Code monkey
 heroImage: /horatiu.png
 heroText: Horațiu Ion
+contact:
+  email: hi@horatiuion.com
+  location: Den Haag, Netherlands
 actionText: Resume →
 actionLink: /resume/
 features:
@@ -14,7 +17,3 @@ features:
   details: Music, Mountain Biking, Hiking, Travelling, Gaming
 footer: Made with VuePress | Copyright © 2018-present Horațiu Ion
 ---
-
-# Get in touch
-
-:email: <hi@horatiuion.com>
