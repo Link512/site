@@ -5,13 +5,11 @@
   "dependencies": {
     "vuepress": "^0.14.2"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "site:dev": "vuepress dev",
     "site:build": "vuepress build"
   },
-
   "keywords": [
     "personal",
     "site",
