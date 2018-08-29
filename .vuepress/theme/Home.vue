@@ -14,7 +14,7 @@
       </p>
 
       <div class="contact" v-if="data.contact">
-        <p v-if="data.contact.email && data.contact.email.length">✉️ <a :href="data.contact.email" alt="mail">{{data.contact.email}}</a></p>
+        <p v-if="data.contact.email && data.contact.email.length">✉️ <a :href="'mailto:' + data.contact.email" alt="mail">{{data.contact.email}}</a></p>
         <div class="location" v-if="data.contact.location && data.contact.location.length">
           <p><img :src="$withBase('./map.png')" :alt="data.contact.location">{{data.contact.location}}</p>
         </div>
