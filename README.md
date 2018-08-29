@@ -7,7 +7,7 @@ actionText: Resume →
 actionLink: /resume/
 features:
 - title: Skills
-  details: Golang, Python, C++, Javascript, PostgresSQL, SQLite, Redis, AWS, MongoDB, zeromq, rabbitmq, Docker
+  details: Golang, Python, C++, Javascript, PostgresSQL, SQLite, Redis, AWS, MongoDB, zeromq, rabbitmq, Docker, Agile, TDD, BDD, CI
 - title: Fields
   details: Web Development, Automotive, Infosec, Cross-Platform Development
 - title: Hobbies
