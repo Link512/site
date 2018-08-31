@@ -7,10 +7,10 @@
         alt="hero"
       >
 
-      <h1>{{ data.heroText || $title || 'Hello' }}</h1>
+      <h1>{{ data.heroText || $title }}</h1>
 
       <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        {{ data.tagline || $description }}
       </p>
 
       <div class="contact" v-if="data.contact">
@@ -20,6 +20,7 @@
         </div>
       </div>
 
+      <div id="clk-ih31341" class="hidden"></div>
 
       <p
         class="action"
@@ -84,6 +85,11 @@ export default {
   padding: $navbarHeight 2rem 0;
   max-width: 960px;
   margin: 0px auto;
+
+  .hidden {
+    visibility: hidden;
+    display: none;
+  }
 
   .hero {
     text-align: center;
