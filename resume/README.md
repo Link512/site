@@ -2,7 +2,7 @@
 positions:
   - title: Backend Engineer
     company: GetStream.io
-    location: Amsterdam
+    location: Amsterdam, The Netherlands
     period: 2017 - present
     tech: Go, Python, AWS, Postgres, Redis, Puppet, ReactJS, Django, RabbitMQ
     projects:
@@ -13,7 +13,7 @@ positions:
       - Various other small features and improvements (Backend + Frontend)
   - title: " Software Engineer"
     company: Verint Systems
-    location: Zoetermeer
+    location: Zoetermeer, The Netherlands
     period: 2016 - 2017
     tech: C++, Python, Perl, Javascript, MongoDB, MySQL, Qt5, Debian packaging, Docker,
       RabbitMQ, ZMQ
@@ -26,7 +26,7 @@ positions:
       - Various other small features and improvements (Backend + Frontend)
   - title: Senior Software Engineer
     company: Telenav
-    location: Cluj-Napoca
+    location: Cluj-Napoca, Romania
     period: 2014 - 2016
     tech: C++11, Cross-Platform, nginx, GPX
     projects:
@@ -38,7 +38,7 @@ positions:
       - Routing server
   - title: Junior Software Engineer
     company: Temasoft
-    location: Cluj-Napoca
+    location: Cluj-Napoca, Romania
     period: 2012 - 2014
     tech: C++11, C#, .NET, MSSQL, Microsoft Server 2012, WiX, WinPCAP
     projects:
@@ -58,6 +58,6 @@ positions:
 ### B.S. Software Engineering
 
 - **Universitatea Babeș-Bolyai**
-- **Cluj-Napoca**
+- **Cluj-Napoca, Romania**
 - **2010-2013**
 - **Grade**: 9.16/10
