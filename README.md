@@ -6,6 +6,7 @@ heroText: Horațiu Ion
 contact:
   email: hi@horatiuion.com
   location: Den Haag, Netherlands
+  github: Link512
 actionText: Resume →
 actionLink: /resume/
 features:

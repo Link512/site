@@ -14,14 +14,18 @@
       </p>
 
       <div class="contact" v-if="data.contact">
-        <div class="email" v-if="data.contact.email && data.contact.email.length">
+        <div class="email ml-5" v-if="data.contact.email && data.contact.email.length">
         <p v-if="data.contact.email && data.contact.email.length">
           ✉️ <a :href="'mailto:' + data.contact.email" alt="mail">{{ data.contact.email }}</a>
         </p>
         </div>
-        <div class="location" v-if="data.contact.location && data.contact.location.length">
-          <img class="pin" :src="$withBase('./map.png')" :alt="data.contact.location">
+        <div class="location ml-5" v-if="data.contact.location && data.contact.location.length">
+          <img class="icon" :src="$withBase('./map.png')" :alt="data.contact.location">
           <p>{{ data.contact.location }}</p>
+        </div>
+        <div class="gh ml-5" v-if="data.contact.github && data.contact.github.length">
+          <img class="icon" :src="$withBase('./Octocat.png')" :alt="data.contact.github">
+          <a :href="'https://github.com/' + data.contact.github">{{ data.contact.github }}</a>
         </div>
       </div>
 
@@ -96,6 +100,10 @@ export default {
     display: none;
   }
 
+  .ml-5 {
+    margin-left: 5px;
+  }
+
   .hero {
     text-align: center;
 
@@ -124,6 +132,13 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 0px 5px;
+
+      .icon {
+        display: block;
+        max-height: 25px;
+        margin: 0px;
+      }
 
       .email {
         display: flex;
@@ -138,12 +153,11 @@ export default {
         p {
           margin-left: 1px;
         }
+      }
 
-        .pin {
-          display: block;
-          max-height: 25px;
-          margin: 0px 0px 0px 0px;
-        }
+      .gh {
+        display: flex;
+        align-items: center;
       }
     }
 
