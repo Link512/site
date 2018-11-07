@@ -14,11 +14,14 @@
       </p>
 
       <div class="contact" v-if="data.contact">
+        <div class="email" v-if="data.contact.email && data.contact.email.length">
         <p v-if="data.contact.email && data.contact.email.length">
           ✉️ <a :href="'mailto:' + data.contact.email" alt="mail">{{ data.contact.email }}</a>
         </p>
+        </div>
         <div class="location" v-if="data.contact.location && data.contact.location.length">
-          <p><img :src="$withBase('./map.png')" :alt="data.contact.location">{{ data.contact.location }}</p>
+          <img class="pin" :src="$withBase('./map.png')" :alt="data.contact.location">
+          <p>{{ data.contact.location }}</p>
         </div>
       </div>
 
@@ -122,18 +125,24 @@ export default {
       justify-content: center;
       align-items: center;
 
-      .location {
-        p {
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          margin-left: 1em;
+      .email {
+        display: flex;
+        align-items: center;
+      }
 
-          img {
-            display: block;
-            max-height: 25px;
-            margin: 0px 0px;
-          }
+      .location {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        p {
+          margin-left: 1px;
+        }
+
+        .pin {
+          display: block;
+          max-height: 25px;
+          margin: 0px 0px 0px 0px;
         }
       }
     }
