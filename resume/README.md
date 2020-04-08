@@ -1,9 +1,19 @@
 ---
 positions:
   - title: Backend Engineer
+    company: FindHotel
+    location: Remote/Amsterdam, The Netherlands
+    period: 2019 - present
+    tech: Go, Python, AWS SFN, AWS Batch, Docker, Snowflake, Redis, Terraform
+    projects:
+      - Mapping REST API (Backend)
+      - ML platform for dataset matching (Backend)
+      - Integration pipeline with various travel providers (Backend)
+      - Various other small features and improvements (Backend)
+  - title: Backend Engineer
     company: GetStream.io
     location: Amsterdam, The Netherlands
-    period: 2017 - present
+    period: 2017 - 2019
     tech: Go, Python, AWS, Postgres, Redis, Puppet, ReactJS, Django, RabbitMQ
     projects:
       - Migration from old python based infrastructure to new go based one (Backend)
@@ -15,7 +25,8 @@ positions:
     company: Verint Systems
     location: Zoetermeer, The Netherlands
     period: 2016 - 2017
-    tech: C++, Python, Perl, Javascript, MongoDB, MySQL, Qt5, Debian packaging, Docker,
+    tech:
+      C++, Python, Perl, Javascript, MongoDB, MySQL, Qt5, Debian packaging, Docker,
       RabbitMQ, ZMQ
     projects:
       - Licensing server (Backend)
