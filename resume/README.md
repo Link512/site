@@ -4,12 +4,13 @@ positions:
     company: FindHotel
     location: Remote/Amsterdam, The Netherlands
     period: 2019 - present
-    tech: Go, Python, AWS SFN, AWS Batch, Docker, Snowflake, Redis, Terraform
+    tech: Go, Python, AWS SFN, AWS Batch, Docker, Snowflake, Redis, Terraform, DBT
     projects:
       - Mapping REST API (Backend)
       - ML platform for dataset matching (Backend)
-      - Integration pipeline with various travel providers (Backend)
-      - Various other small features and improvements (Backend)
+      - Master inventory generation (Backend)
+      - ETL pipeline for various travel providers (Backend)
+      - Other smaller features and improvements (Backend)
   - title: Backend Engineer
     company: GetStream.io
     location: Amsterdam, The Netherlands
