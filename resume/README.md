@@ -1,12 +1,14 @@
 ---
 positions:
-  - title: Backend Engineer
+  - title: Staff Software Engineer
     company: FindHotel
-    location: Remote/Amsterdam, The Netherlands
+    location: Amsterdam, The Netherlands
     period: 2019 - present
-    tech: Go, Python, AWS SFN, AWS Batch, Docker, Snowflake, Redis, Terraform, DBT
+    tech: Go, Python, AWS, Docker, Snowflake, Redis, Terraform, DBT, Postgres
     projects:
       - Mapping REST API (Backend)
+      - Google Hotel Ads and Google Vacation Rentals endpoints (Backend)
+      - Internal CMS tool (Backend + Frontend)
       - ML platform for dataset matching (Backend)
       - Master inventory generation (Backend)
       - ETL pipeline for various travel providers (Backend)
@@ -22,7 +24,7 @@ positions:
       - Import data into existing app (Backend + Frontend)
       - Audit log for all API calls (Backend + Frontend)
       - Various other small features and improvements (Backend + Frontend)
-  - title: " Software Engineer"
+  - title: Software Engineer
     company: Verint Systems
     location: Zoetermeer, The Netherlands
     period: 2016 - 2017
